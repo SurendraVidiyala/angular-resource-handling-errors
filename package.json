@@ -1,5 +1,5 @@
 {
-    "name": "rest-api-angular-resource",
+    "name": "angular-resource-handling-errors",
     "private": true,
     "devDependencies": {
         "browser-sync": "^2.18.12",
