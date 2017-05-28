@@ -108,7 +108,7 @@ angular.module('anupamaApp')
 
 // implement the IndexController and About Controller here
 .controller('IndexController', ['$scope', '$stateParams', 'menuFactory', 'corporateFactory', function($scope, $stateParams, menuFactory, corporateFactory) {
-    $scope.featured = menuFactory.getDish(0);
+    // $scope.featured = menuFactory.getDish(0);
     $scope.leader = corporateFactory.getLeader(3);
     $scope.showDish = false;
     $scope.message = "Loading ...";
